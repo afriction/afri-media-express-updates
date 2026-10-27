@@ -1,21 +1,46 @@
 # Afri Media Express
 
-Exportez vos médias en plus léger.
+**Exportez vos médias en plus léger.**
 
-Creative tools by Robin Kapka
+Repérez les médias d’une page et téléchargez les sources compatibles en MP4 ou MP3. Suivez vos téléchargements depuis le panneau latéral de Firefox.
 
-Ce dépôt héberge les fichiers de distribution et les mises à jour Firefox. Les sources de travail sont conservées dans un dépôt privé. L’extension est distribuée en mode non répertorié sur Mozilla : elle n’apparaît pas dans la boutique.
+## Installer sur Firefox
 
-## Installation Firefox
+**[Télécharger l’extension Firefox](https://github.com/afriction/afri-media-express-updates/releases/latest/download/afri-media-express-firefox.xpi)**
 
-La première version signée est en préparation. Aucun ZIP non signé ne doit être utilisé pour une installation permanente.
+1. Téléchargez le fichier depuis Firefox.
+2. Confirmez l’installation et les autorisations demandées.
 
-Une fois la version disponible dans Releases, téléchargez `afri-media-express-firefox.xpi`. Dans Firefox, ouvrez `about:addons`, puis le menu roue dentée → Installer un module depuis un fichier. Sélectionnez le XPI signé et confirmez les autorisations. L’installation reste disponible après redémarrage, sans débogueur.
+Si Firefox télécharge le fichier sans proposer l’installation :
+
+1. Ouvrez le menu Firefox → **Extensions et thèmes**.
+2. Cliquez sur la roue dentée → **Installer un module depuis un fichier**.
+3. Sélectionnez le fichier téléchargé et confirmez.
+
+L’extension est signée par Mozilla et reste installée après le redémarrage du navigateur. Aucun compte GitHub n’est nécessaire pour la télécharger.
+
+## Utiliser l’extension
+
+1. Ouvrez une page contenant un média compatible.
+2. Ouvrez le panneau de l’extension depuis la barre d’outils de Firefox.
+3. Sélectionnez le média et le format souhaité, puis lancez le téléchargement.
+
+La rubrique **Progression** permet de suivre les fichiers en cours et en attente.
+
+## Faut-il installer l’application ?
+
+L’extension fonctionne seule pour les médias directs compatibles, avec une limite de 256 Mo par traitement. Les conversions s’effectuent sur votre ordinateur.
+
+L’application Mac complète ces possibilités pour certaines pages complexes, les playlists et les fichiers plus volumineux.
+
+La disponibilité des téléchargements dépend du site et du média. Les contenus protégés ne sont pas pris en charge.
 
 ## Mises à jour
 
-Firefox consulte automatiquement [le manifeste de mise à jour](https://raw.githubusercontent.com/afriction/afri-media-express-updates/main/firefox/updates.json). Les versions proposées doivent être signées par Mozilla ; chaque entrée comporte une empreinte SHA-256 du fichier signé. Le manifeste reste vide tant que la première signature n’est pas disponible.
+Firefox recherche automatiquement les nouvelles versions. Aucune manipulation dans le débogueur n’est nécessaire.
 
-Aucun jeton GitHub n’est intégré à l’extension. Les fichiers de ce dépôt sont publics et accessibles sans compte GitHub.
+## Aide et confidentialité
 
-[Confidentialité](PRIVACY.md)
+[Signaler un problème](https://github.com/afriction/afri-media-express-updates/issues) · [Confidentialité](PRIVACY.md)
+
+Creative tools by Robin Kapka
