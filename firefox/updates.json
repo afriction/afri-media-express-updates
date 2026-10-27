@@ -1,7 +1,18 @@
 {
   "addons": {
     "afri-video-compress@robinkapka": {
-      "updates": []
+      "updates": [
+        {
+          "version": "0.1.1",
+          "update_link": "https://github.com/afriction/afri-media-express-updates/releases/download/firefox-v0.1.1/afri-media-express-firefox.xpi",
+          "update_hash": "sha256:73b4376198f86563106d48f82f4c7bb703b31c6f07f9ee5470d206abf220c5b6",
+          "applications": {
+            "gecko": {
+              "strict_min_version": "140.0"
+            }
+          }
+        }
+      ]
     }
   }
 }
